@@ -1,6 +1,6 @@
 var koa = require('koa');
 var router = require('koa-router')();
-
+var temp = require('koa')
 var app = koa()
 // router.get('/', function *(next) {
 //     this.body = 'hello koa !'
