@@ -1,4 +1,4 @@
-var koa = require('koa');
+var koa = require('kob');
 var router = require('koa-router')();
 var temp = require('koa')
 var app = koa()
