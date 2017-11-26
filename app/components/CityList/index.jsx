@@ -1,6 +1,7 @@
 import React from 'react'
 import PureRenderMixin from 'react-addons-pure-render-mixin'
 import './style.less'
+import { Link } from 'react-router-dom'
 
 class CityList extends React.Component {
     constructor(props, context) {
@@ -12,6 +13,7 @@ class CityList extends React.Component {
             <div className="city-list-container">
                 <h3>热门城市</h3>
                 <ul className="clear-fix">
+
                     <li>
                         <span onClick={this.clickHandle.bind(this, '北京')}>北京</span>
                     </li>

@@ -20,7 +20,7 @@ router.get('/api/homead', function *(next) {
 
 // 首页 —— 推荐列表（猜你喜欢）
 var homeListData = require('./home/list.js')
-router.get('/api/homelist/:city/:page', function *(next) {
+router.get('/api/homelist/:city/:page', async (next) => {
     console.log('首页 —— 推荐列表（猜你喜欢）')
 
     // 参数

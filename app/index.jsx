@@ -8,7 +8,7 @@ import RouteMap from './router/routeMap'
 import './static/css/common.less'
 import './static/css/font.css'
 // import RouterMap from "../../stage8-star-2/app/router/routeMap";
-// 创建 Redux 的 store 对象
+
 const store = configureStore()
 
 render(

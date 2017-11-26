@@ -1,5 +1,6 @@
 import React from 'react'
 import { Router, Route, IndexRoute } from 'react-router'
+import { Router, Link } from 'react-router-dom'
 
 import App from '../containers'
 import Home from '../containers/Home'
